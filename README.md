@@ -5,7 +5,7 @@ Steam판 **Dark Messiah of Might and Magic** (싱글 플레이) 한글화를 보
 
 > Korean font fix & crash fix for **Dark Messiah of Might and Magic** (Steam) — 다크 메시아 한글 글꼴 수정, 튕김 수정
 
-**[⬇ 최신 패치 내려받기 (Releases)](https://github.com/JukeONE/dark-messiah-kr-patch/releases)**
+**[⬇ 최신 패치 내려받기 (Releases)](https://github.com/JukeONE/dark-messiah-font-crash-fix/releases)**
 
 ## 필요 사항
 
@@ -14,7 +14,7 @@ Steam판 **Dark Messiah of Might and Magic** (싱글 플레이) 한글화를 보
 
 ## 설치
 
-1. [Releases](https://github.com/JukeONE/dark-messiah-kr-patch/releases)에서 `DarkMessiah_KR_FontFix_CrashFix.zip`을 내려받습니다.
+1. [Releases](https://github.com/JukeONE/dark-messiah-font-crash-fix/releases)에서 `DarkMessiah_KR_FontFix_CrashFix.zip`을 내려받습니다.
 2. 게임 폴더(`mm.exe`가 있는 폴더)에 압축을 풉니다.
    - 보통 `C:\Program Files (x86)\Steam\steamapps\common\Dark Messiah Might and Magic Single Player`
 3. `Korean_Install.bat`을 실행합니다.

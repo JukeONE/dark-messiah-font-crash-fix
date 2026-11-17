@@ -1352,6 +1352,28 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+
+		// 불러오기/저장 목록용 큰 글씨 (김쥬크 보완)
+		"KJSaveTitle"
+		{
+			"1"
+			{
+				"name"		"NanumMyeongjo"
+				"tall"		"21"
+				"weight"	"1000"
+				"antialias"	"1"
+			}
+		}
+		"KJSaveInfo"
+		{
+			"1"
+			{
+				"name"		"NanumMyeongjo"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		"DefaultSmallDropShadow"
 		{
 			"1"

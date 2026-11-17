@@ -1,0 +1,20 @@
+# 다크 메시아 한글폰트수정 및 크래시 Fix — 설치기 명령 파일 (형식은 installer/Patcher.cs 맨 위 설명)
+# 예전 bat 버전으로 설치한 경우 그 백업으로 먼저 되돌림
+LEGACY|_kr_backup|mm\resource\NanumMyeongjo.ttf;mm\resource\NanumMyeongjoBold.ttf
+
+BYTES|bin\filesystem_steam.dll|6d45e3d7e69daafd2097b85997288a30|35dfe7e51a3cdf1ae1bd74abf0ba2119|세이브/로드 날짜 깨짐 수정|2185:02>01 21A3:00>0E
+BYTES|bin\vguimatsurface.dll|c41272cc7419c51a6d70e8ba3df22ca8|d1888dae638c745665a89a323b811f33|한글 글꼴 나눔명조 + 부드럽게 그리기|220:45>60 220C2:7E>EB 226CA:C0>48 226CB:70>F2 226CC:09>0A AEB18:80>00 AEB19:01>00 AEB29:41>57 AF248:00>4E AF249:00>61 AF24A:00>6E AF24B:00>75 AF24C:00>6D AF24D:00>4D AF24E:00>79 AF24F:00>65 AF250:00>6F AF251:00>6E AF252:00>67 AF253:00>6A AF254:00>6F
+BYTES|mm.exe|f0f8dc6f6ba084b1736cf3bddc673e16|861fc55296caa4512cce237f64b492a0|4GB 메모리 사용 (튕김 줄임)|DD6:0F>2F
+
+REPLACE|mm\resource\sourcescheme_koreana.res|4ee69ac8e24b620197345645cd51e583|kjdata/sourcescheme_koreana.res|글꼴 설정 (나눔명조, 로딩 글자 크기)
+REPLACE|mm\resource\clientscheme_koreana.res|5a4ce0d8971431c030cdaa99ffbef2c4|kjdata/clientscheme_koreana.res|글꼴 설정 (나눔명조)
+
+KVADD|mm\resource\koreana\closecaption_speech_lvl_00.txt|l00_phenrig_orcs|오크들은 네 스스로 상대해야 한다! 놈들은 정신이 강해서 내가 조종할 수가 없구나.
+KVADD|mm\resource\koreana\closecaption_speech_lvl_01.txt|l01_villagerscream_07|누가 좀 도와줘요! 우리 아이들을 구해야 해요!
+KVADD|mm\resource\koreana\system_strings_lvl_04.txt|book_second_log_description|원정 준비 과정을 기록한 일지입니다.(읽으려면 두 번 클릭)
+KVADD|mm\resource\mm_itemnames_koreana.txt|GameUI_GameMenu_Update|업데이트 확인
+KVADD|mm\resource\mm_itemnames_koreana.txt|gameui_savebeforemultitext|종료하기 전에 저장하시겠습니까?
+KVADD|mm\resource\mm_itemnames_koreana.txt|gameui_savebeforemultititle|멀티플레이
+KVADD|mm_koreana\resource\mm_itemnames_koreana.txt|GameUI_GameMenu_Update|업데이트 확인
+KVADD|mm_koreana\resource\mm_itemnames_koreana.txt|gameui_savebeforemultitext|종료하기 전에 저장하시겠습니까?
+KVADD|mm_koreana\resource\mm_itemnames_koreana.txt|gameui_savebeforemultititle|멀티플레이

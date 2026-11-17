@@ -14,15 +14,14 @@ Steam판 **Dark Messiah of Might and Magic** (싱글 플레이) 한글화를 보
 
 ## 설치
 
-1. [Releases](https://github.com/JukeONE/dark-messiah-font-crash-fix/releases)에서 `DarkMessiah_KR_FontFix_CrashFix.zip`을 내려받습니다.
-2. 게임 폴더(`mm.exe`가 있는 폴더)에 압축을 풉니다.
-   - 보통 `C:\Program Files (x86)\Steam\steamapps\common\Dark Messiah Might and Magic Single Player`
-3. `Korean_Install.bat`을 실행합니다.
+1. [Releases](https://github.com/JukeONE/dark-messiah-font-crash-fix/releases)에서 `DarkMessiah_KR_FontFix_CrashFix.zip`을 내려받아 아무 곳에나 압축을 풉니다.
+2. 게임을 끈 상태에서 `DarkMessiah_KR_FontFix_CrashFix.exe`를 실행하고 **[설치]**를 누릅니다.
+   - 게임 폴더는 스팀 라이브러리에서 자동으로 찾습니다. 못 찾으면 **[폴더]**로 `mm.exe`가 있는 폴더를 고르세요.
+3. 되돌리려면 같은 프로그램에서 **[복원]**을 누릅니다.
 
-원래대로 되돌리려면 `Korean_Restore.bat`을 실행하세요. 바꾼 파일의 원본은 `_kr_backup` 폴더에 백업됩니다.
-
-- 게임 원본 파일은 들어 있지 않습니다. 정품 게임 파일의 바뀐 부분만 고칩니다.
-- 파일마다 원본이 맞는지(MD5) 확인한 뒤에만 고치고, 버전이 다르면 건너뜁니다. 여러 번 실행해도 됩니다.
+- 게임 원본 파일은 들어 있지 않습니다. 파일마다 원본이 맞는지(MD5) 확인한 뒤에만 고치고, 원본은 `.kjbak`으로 백업합니다. 버전이 다르면 건너뜁니다.
+- 예전 bat 버전(`Korean_Install.bat`)으로 설치했어도 그대로 실행하면 됩니다. 예전 백업(`_kr_backup`)으로 먼저 되돌린 뒤 적용합니다.
+- 설치기 배경음: "Psychedelic Blues Rock Instrumental" by nickpanek (Pixabay). 스피커 단추나 `M` 키로 끕니다.
 
 ## 고치는 내용
 
@@ -38,11 +37,13 @@ Steam판 **Dark Messiah of Might and Magic** (싱글 플레이) 한글화를 보
 
 ## 저장소 구성
 
-- `Korean_Install.bat`, `Korean_Restore.bat` — 설치·복원 실행 파일
-- `dm_kr_fix/patch.ps1` — 실제 설치·복원 스크립트 (PowerShell)
-- `dm_kr_fix/data/` — 고친 한국어 글꼴 설정 (`sourcescheme_koreana.res`, `clientscheme_koreana.res`)
-- `dm_kr_fix/fonts/` — 나눔명조 글꼴
-- `licenses/` — 글꼴 라이선스
+- `patch/kjpatch.txt` — 설치기가 하는 일 전체 (바이트 패치 위치와 원본/결과 MD5, 교체 파일, 추가 문구)
+- `patch/kjdata/` — 고친 한국어 글꼴 설정 (`sourcescheme_koreana.res`, `clientscheme_koreana.res`)
+- `patch/mm/resource/` — 나눔명조 글꼴
+- `notes/기술노트.md` — 바이트 위치와 엔진 동작 설명
+- `licenses/` — 글꼴 라이선스, 배경음 출처
+
+설치 프로그램은 [Releases](https://github.com/JukeONE/dark-messiah-font-crash-fix/releases)에 있습니다.
 
 ## 감사
 

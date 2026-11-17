@@ -1,0 +1,4 @@
+기본 배경음 (FTL 한글패치 설치기와 같은 곡)
+"Psychedelic Blues Rock Instrumental" by nickpanek (Pixabay, Pixabay Content License — 무료 사용 가능)
+
+bgm.env, bgm.beat는 스피커/음표 움직임용 데이터 (bgm.mp3와 한 세트). 곡을 바꿀 때는 셋을 같이 바꿀 것.
